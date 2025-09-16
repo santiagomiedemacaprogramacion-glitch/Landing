@@ -1,0 +1,12 @@
+#changing-title {
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+    }
+
+    #changing-title.visible {
+        opacity: 1;
+    }
+
+    .rounded-4 {
+    border-radius: 1rem !important;
+}

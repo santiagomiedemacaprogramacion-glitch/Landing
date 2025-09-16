@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/img/Logo-Lucy.svg" alt="Logo" width="100px" height="auto" class="d-inline-block align-text-top">
+            </a>
+            <a><span class="toggle material-symbols-outlined p-1 ">dehaze</span></a>
+        </div>
+    </nav>
+
+    <section class="container d-flex flex-column justify-content-center align-items-center text-center vh-100 ">
+        <h1 id="changing-title" class="bold text-primary">¡Buen día agencia!</h1>
+        <p class="pb-5">Gestioná todo desde un mismo lugar.</p>
+    </section>
+
+
+
+    <!-- 1er Carrusel -->
+
+
+
+    <section id="carouselExample" class="carousel slide container bg-secondary" data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="hover" data-bs-keyboard="true">
+        <!-- Indicadores -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="3"></button>
+        </div>
+
+        <!-- Slides -->
+        <div class="carousel-inner">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+            <div class="d-flex align-items-center justify-content-between bg-white shadow rounded-3 p-4 h-150 my-3">
+                <!-- Texto -->
+                <div class="w-75">
+                    <h3 class="text-primary fw-bold mb-2">Área comercial</h3>
+                    <p class="text-secondary mb-0">Administración de leads, proceso de venta y stock de unidades disponibles.</p>
+                </div>
+                <!-- Ícono -->
+                <div class="bg-primary d-flex justify-content-center align-items-center rounded-circle" style="width: 64px; height: 64px;">
+                    <span class="material-symbols-outlined text-white fs-2">store</span>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+            <div class="d-flex align-items-center justify-content-between bg-white shadow rounded-3 p-4 h-150 my-3">
+                <!-- Texto -->
+                <div class="w-75">
+                    <h3 class="text-primary fw-bold mb-2">Análisis de rendimiento</h3>
+                    <p class="text-secondary mb-0">Provee estadísticas detalladas que ayudan a mejorar ventas, ganancias y atención al cliente.</p>
+                </div>
+                <!-- Ícono -->
+                <div class="bg-primary d-flex justify-content-center align-items-center rounded-circle" style="width: 64px; height: 64px;">
+                    <span class="material-symbols-outlined text-white fs-2">finance_mode</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+            <div class="d-flex align-items-center justify-content-between bg-white shadow rounded-3 p-4 h-150 my-3">
+                <!-- Texto -->
+                <div class="w-75">
+                    <h3 class="text-primary fw-bold mb-2">Análisis </h3>
+                    <p class="text-secondary mb-0">Provee</p>
+                </div>
+                <!-- Ícono -->
+                <div class="bg-primary d-flex justify-content-center align-items-center rounded-circle" style="width: 64px; height: 64px;">
+                    <span class="material-symbols-outlined text-white fs-2">finance_mode</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="carousel-item">
+            <div class="d-flex align-items-center justify-content-between bg-white shadow rounded-3 p-4 h-150 my-3">
+                <!-- Texto -->
+                <div class="w-75">
+                    <h3 class="text-primary fw-bold mb-2">Rendimiento</h3>
+                    <p class="text-secondary mb-0">cliente.</p>
+                </div>
+                <!-- Ícono -->
+                <div class="bg-primary d-flex justify-content-center align-items-center rounded-circle" style="width: 64px; height: 64px;">
+                    <span class="material-symbols-outlined text-white fs-2">finance_mode</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controles -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </section>
+
+
+
+    <!-- 2do Carrusel -->
+
+
+
+    <section id="carouselCards" class="carousel slide container py-5 bg-secondary" data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="hover" data-bs-keyboard="true">
+        <!-- Indicadores -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselCards" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carouselCards" data-bs-slide-to="1"></button>
+        </div>
+
+        <!-- Slides -->
+        <div class="carousel-inner">
+
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+                <div class="row justify-content-center g-2">
+                    <!-- Card 1 -->
+                    <div class="col-md-4">
+                        <div class="bg-white shadow rounded-3 p-4 d-flex align-items-center">
+                            <img src="./assets/img/logo-lamoderna.svg" alt="Logo" class="rounded-circle me-3 bg-primary" width="64" height="64">
+                            <div>
+                                <h5 class="fw-bold mb-1">La moderna</h5>
+                                <p class="mb-0 text-muted">11 de Septiembre 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="col-md-4">
+                        <div class="bg-white shadow rounded-3 p-4 d-flex align-items-center">
+                            <img src="./assets/img/logo-lamoderna.svg" alt="Logo" class="rounded-circle me-3 bg-primary" width="64" height="64">
+                            <div>
+                                <h5 class="fw-bold mb-1">La moderna</h5>
+                                <p class="mb-0 text-muted">11 de Septiembre 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="col-md-4">
+                        <div class="bg-white shadow rounded-3 p-4 d-flex align-items-center">
+                            <img src="./assets/img/logo-lamoderna.svg" alt="Logo" class="rounded-circle me-3 bg-primary" width="64" height="64">
+                            <div>
+                                <h5 class="fw-bold mb-1">La moderna</h5>
+                                <p class="mb-0 text-muted">11 de Septiembre 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+                <div class="row justify-content-center g-2">
+                    <!-- Card 4 -->
+                    <div class="col-md-4">
+                        <div class="bg-white shadow rounded-3 p-4 d-flex align-items-center">
+                            <img src="./assets/img/logo-lamoderna.svg" alt="Logo" class="rounded-circle me-3 bg-primary" width="64" height="64">
+                            <div>
+                                <h5 class="fw-bold mb-1">La moderna</h5>
+                                <p class="mb-0 text-muted">11 de Septiembre 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 5 -->
+                    <div class="col-md-4">
+                        <div class="bg-white shadow rounded-3 p-4 d-flex align-items-center">
+                            <img src="./assets/img/logo-lamoderna.svg" alt="Logo" class="rounded-circle me-3 bg-primary" width="64" height="64">
+                            <div>
+                                <h5 class="fw-bold mb-1">La moderna</h5>
+                                <p class="mb-0 text-muted">11 de Septiembre 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 6 -->
+                    <div class="col-md-4">
+                        <div class="bg-white shadow rounded-3 p-4 d-flex align-items-center">
+                            <img src="./assets/img/logo-lamoderna.svg" alt="Logo" class="rounded-circle me-3 bg-primary" width="64" height="64">
+                            <div>
+                                <h5 class="fw-bold mb-1">La moderna</h5>
+                                <p class="mb-0 text-muted">11 de Septiembre 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Controles -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselCards" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselCards" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+
+    </section>
+
+
+
+    <!-- 3er Carrusel -->
+
+
+
+    <section id="carouselCardsDos" class="carousel slide container py-5 bg-secondary" data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="hover" data-bs-keyboard="true">
+        <!-- Indicadores -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselCardsDos" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carouselCardsDos" data-bs-slide-to="1"></button>
+        </div>
+
+        <!-- Slides -->
+        <div class="carousel-inner">
+
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+                <div class="row justify-content-center g-4">
+                    <!-- Card 1 -->
+                    <div class="col-md-6">
+                        <div class="d-flex bg-white rounded-4 shadow overflow-hidden">
+                            <!-- Contenido -->
+                            <div class="p-4 flex-grow-1">
+                                <h5 class="fw-bold mb-2">Análisis de rendimiento</h5>
+                                <p class="text-muted mb-0">Provee estadísticas detalladas que ayudan a mejorar ventas, ganancias y atención al cliente.</p>
+                            </div>
+                            <!-- Icono -->
+                            <div class="bg-primary d-flex justify-content-center align-items-center px-4" style="min-width: 100px;">
+                                <img src="./assets/img/graph-icon.svg" alt="Icono gráfico" style="width: 48px; height: auto;">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="col-md-6">
+                        <div class="d-flex bg-white rounded-4 shadow overflow-hidden">
+                            <!-- Contenido -->
+                            <div class="p-4 flex-grow-1">
+                                <h5 class="fw-bold mb-2">Análisis de rendimiento</h5>
+                                <p class="text-muted mb-0">Provee estadísticas detalladas que ayudan a mejorar ventas, ganancias y atención al cliente.</p>
+                            </div>
+                            <!-- Icono -->
+                            <div class="bg-primary d-flex justify-content-center align-items-center px-4" style="min-width: 100px;">
+                                <img src="./assets/img/graph-icon.svg" alt="Icono gráfico" style="width: 48px; height: auto;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+                <div class="row justify-content-center g-4">
+                    <!-- Card 3 -->
+                    <div class="col-md-6">
+                        <div class="d-flex bg-white rounded-4 shadow overflow-hidden">
+                            <!-- Contenido -->
+                            <div class="p-4 flex-grow-1">
+                                <h5 class="fw-bold mb-2">Análisis de rendimiento</h5>
+                                <p class="text-muted mb-0">Provee estadísticas detalladas que ayudan a mejorar ventas, ganancias y atención al cliente.</p>
+                            </div>
+                            <!-- Icono -->
+                            <div class="bg-primary d-flex justify-content-center align-items-center px-4" style="min-width: 100px;">
+                                <img src="./assets/img/graph-icon.svg" alt="Icono gráfico" style="width: 48px; height: auto;">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="col-md-6">
+                        <div class="d-flex bg-white rounded-4 shadow overflow-hidden">
+                            <!-- Contenido -->
+                            <div class="p-4 flex-grow-1">
+                                <h5 class="fw-bold mb-2">Análisis de rendimiento</h5>
+                                <p class="text-muted mb-0">Provee estadísticas detalladas que ayudan a mejorar ventas, ganancias y atención al cliente.</p>
+                            </div>
+                            <!-- Icono -->
+                            <div class="bg-primary d-flex justify-content-center align-items-center px-4" style="min-width: 100px;">
+                                <img src="./assets/img/graph-icon.svg" alt="Icono gráfico" style="width: 48px; height: auto;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Controles -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselCardsDos" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselCardsDos" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </section>
+
+
+
+
+    <!-- 4to Carrusel -->
+
+
+
+
+    <section id="carouselCardsTres" class="carousel slide container py-5 bg-secondary" data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="hover" data-bs-keyboard="true">
+        <!-- Indicadores -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselCardsTres" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carouselCardsTres" data-bs-slide-to="1"></button>
+        </div>
+
+        <!-- Slides -->
+        <div class="carousel-inner">
+
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+                <div class="row justify-content-center g-4">
+                    <!-- Card 1 -->
+                    <div class="col-md-6">
+                        <div class="bg-white rounded-4 shadow p-4 h-100 position-relative">
+                            <!-- Línea superior azul -->
+                            <div class="position-absolute top-0 start-0 w-100" style="height: 5px; background-color: #0d6efd; border-top-left-radius: 1rem; border-top-right-radius: 1rem;"></div>
+                            <!-- Contenido -->
+                            <div class="pt-3">
+                                <h5 class="fw-bold">Boleto de compra y venta</h5>
+                                <p class="text-muted">Agiliza el proceso de compra o venta con boletos generados digitalmente, simplificando el papeleo y asegurando transparencia con clientes.</p>
+                                <img src="./assets/img/boletos-img.svg" alt="Imagen boleto" class="img-fluid bg-primary rounded-3">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="col-md-6">
+                        <div class="bg-white rounded-4 shadow p-4 h-100 position-relative">
+                            <div class="position-absolute top-0 start-0 w-100" style="height: 5px; background-color: #0d6efd; border-top-left-radius: 1rem; border-top-right-radius: 1rem;"></div>
+                            <div class="pt-3">
+                                <h5 class="fw-bold">Boleto de compra y venta</h5>
+                                <p class="text-muted">Agiliza el proceso de compra o venta con boletos generados digitalmente, simplificando el papeleo y asegurando transparencia con clientes.</p>
+                                <img src="./assets/img/boletos-img.svg" alt="Imagen boleto" class="img-fluid bg-primary rounded-3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+                <div class="row justify-content-center g-4">
+                    <!-- Card 3 -->
+                    <div class="col-md-6">
+                        <div class="bg-white rounded-4 shadow p-4 h-100 position-relative">
+                            <div class="position-absolute top-0 start-0 w-100" style="height: 5px; background-color: #0d6efd; border-top-left-radius: 1rem; border-top-right-radius: 1rem;"></div>
+                            <div class="pt-3">
+                                <h5 class="fw-bold">Boleto de compra y venta</h5>
+                                <p class="text-muted">Agiliza el proceso de compra o venta con boletos generados digitalmente, simplificando el papeleo y asegurando transparencia con clientes.</p>
+                                <img src="./assets/img/boletos-img.svg" alt="Imagen boleto" class="img-fluid bg-primary rounded-3">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="col-md-6">
+                        <div class="bg-white rounded-4 shadow p-4 h-100 position-relative">
+                            <div class="position-absolute top-0 start-0 w-100" style="height: 5px; background-color: #0d6efd; border-top-left-radius: 1rem; border-top-right-radius: 1rem;"></div>
+                            <div class="pt-3">
+                                <h5 class="fw-bold">Boleto de compra y venta</h5>
+                                <p class="text-muted">Agiliza el proceso de compra o venta con boletos generados digitalmente, simplificando el papeleo y asegurando transparencia con clientes.</p>
+                                <img src="./assets/img/boletos-img.svg" alt="Imagen boleto" class="img-fluid bg-primary rounded-3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Controles -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselCardsTres" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselCardsTres" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="./assets/JS/script.js"></script>
+
+
+</body>
+</html>
