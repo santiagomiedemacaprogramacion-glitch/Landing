@@ -1,3 +1,138 @@
+body{
+    background-color: #f9fafb;
+}
+
+
+/* NAVBAR Y TOGGLE MENU */
+
+
+
+
+
+
+
+
+
+
+/* TEXTOS */
+
+#changing-title{
+    font-size: 42px;
+}
+
+.texto-p{
+    font-size: 10px;
+}
+
+.card-titles{
+    font-size: 17px;
+}
+
+.card-text{
+    font-size: 11px;
+}
+
+.promos-title{
+    font-size:27px ;
+    
+}
+
+.ofertas-card-title{
+    font-size: 20px;
+}
+
+.ofertas-card-text{
+    font-size: 9px;
+}
+
+.ofertas-price{
+    font-size: 19px;
+}
+
+.nombre-empresa{
+    font-size: 12px;
+}
+
+.fecha-empresa{
+    font-size: 11px;
+}
+
+.consulta-title{
+    font-size: 20px;
+}
+
+.consulta-text{
+    font-size: 13px;
+}
+
+
+
+
+/* CONTENEDORES */
+
+
+
+#hero{
+    min-height: 60vh;
+}
+
+.card-carousel-one{
+    min-height: 150px;
+}
+
+#carouselCards{
+    background-color: #eef0f6;
+}
+
+#promos{
+    background-color: #7f00ff;
+}
+
+#stadium{
+    font-size: 200px;
+    color: white;
+}
+
+.icon-card-cont{
+    min-width: 100px;
+}
+
+.icon-card-cont span {
+    font-size: 75px;
+    color: white;
+}
+
+.iconos-cards{
+    display: flex;               
+    align-items: center;         
+    justify-content: center;     
+    width: 70px;                 
+    height: 70px;
+    background-color: #7f00ff;   
+    color: white;                
+    font-size: 35px; 
+}
+
+.cont-car-tres{
+    min-height: 270px;
+}
+
+#consultas{
+    font-size: 30px;
+}
+
+.rounded-circle.me-3{
+    border: 2px lightgrey solid;
+}
+
+.consulta-btn{
+    width:250px;
+    height:160px;
+}
+
+
+
+
 #changing-title {
         opacity: 0;
         transition: opacity 0.5s ease-in-out;
@@ -9,4 +144,25 @@
 
     .rounded-4 {
     border-radius: 1rem !important;
+}
+
+/* Cambiar color de flechas Bootstrap */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: white; /* gris oscuro */
+ 
+  mask-image: var(--bs-carousel-control-prev-icon);
+  -webkit-mask-image: var(--bs-carousel-control-prev-icon);
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-position: center;
+  mask-size: 100% 100%;
+  -webkit-mask-size: 100% 100%;
+}
+
+/* Next icon usa su propio SVG */
+.carousel-control-next-icon {
+  mask-image: var(--bs-carousel-control-next-icon);
+  -webkit-mask-image: var(--bs-carousel-control-next-icon);
 }
